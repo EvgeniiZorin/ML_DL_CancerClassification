@@ -1,0 +1,12 @@
+modelName,optimiser,learningRate,lossFunction,epochs,accuracy,recall,f2_score
+230412_SGD_0.01_mse_100,SGD,0.01,mse,100,0.965,1.0,0.981
+230412_SGD_0.01_binary_crossentropy_100,SGD,0.01,binary_crossentropy,100,0.956,1.0,0.977
+230412_Adam_0.01_binary_crossentropy_100,Adam,0.01,binary_crossentropy,100,0.974,0.952,0.957
+230412_Nadam_0.01_binary_crossentropy_100,Nadam,0.01,binary_crossentropy,100,0.974,1.0,0.986
+230412_SGD_0.01_mse_100,SGD,0.01,mse,100,0.93,1.0,0.963
+230412_SGD_0.01_binary_crossentropy_200,SGD,0.01,binary_crossentropy,200,0.965,1.0,0.981
+230412_SGD_0.01_binary_crossentropy_300,SGD,0.01,binary_crossentropy,300,0.991,1.0,0.995
+230412_SGD_0.1_binary_crossentropy_100,SGD,0.1,binary_crossentropy,100,0.956,1.0,0.977
+230412_SGD_0.05_binary_crossentropy_100,SGD,0.05,binary_crossentropy,100,0.956,1.0,0.977
+230412_SGD_0.001_binary_crossentropy_100,SGD,0.001,binary_crossentropy,100,0.851,1.0,0.925
+230412_SGD_0.0001_binary_crossentropy_100,SGD,0.0001,binary_crossentropy,100,0.763,1.0,0.886
